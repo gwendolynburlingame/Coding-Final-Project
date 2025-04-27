@@ -1,6 +1,6 @@
-thirdly = ['y', 'c', 'l', 'n', 't', 'x']
 answers = ['y', 'yes', 'n', 'no']
 choice = ['verb', 'v', 'noun', 'n']
+thirdly = ['r', 'n', 'x', 'l', 't']
 
 aspects = ['gender', 'number', 'case', 'declension']
 gens = ['feminine', 'masculine', 'neuter']
@@ -19,12 +19,14 @@ persons = ['first', 'second', 'third']
 tenses = ['present', 'imperfect', 'future', 'perfect', 'pluperfect', 'future perfect']
 voices = ['active', 'passive', 'deponent']
 moods = ['indicative', 'imperative', 'subjunctive']
-conjugations = ['first', 'second', 'third', 'third "-io"', 'fourth']
+conjugations = ['first', 'second', 'third', 'third/fourth', 'fourth']
 person = ""
 tense = ""
 voice = ""
 mood = ""
 conjugation = ""
+conjs = {'first': 'āre', 'second': 'ēre', 'third': 'ere', 'fourth': 'īre', 'third/fourth': 'ere'}
+
 
 
 def aspect(word):
@@ -116,11 +118,9 @@ def quest(ans1):
     while ans1 == 'y' or ans1 == 'yes':
         ans2 = input("Please enter which an aspect of the noun: gender/declension/number/case (Please select only one at a time): ")
         ans2 = ans2.lower()
-
         while ans2 not in aspects:
             ans2 = input("Not a valid answer. Please select one from the following list: gender/declension/number/case: ")
             ans2 = ans2.lower()
-            
         aspect(ans2)
         if gender != "" and number != "" and case != "" and declension != "":
             break
@@ -142,11 +142,9 @@ def quest2(ans1):
     while ans1 == 'y' or ans1 == 'yes':
         ans2 = input("Please enter which an aspect of the verb: person/number/tense/voice/mood/conjugation (Please select only one at a time): ")
         ans2 = ans2.lower()
-
         while ans2 not in aspects2:
             ans2 = input("Not a valid answer. Please select one from the following list: person/number/tense/voice/mood/conjugation: ")
-            ans2 = ans2.lower()
-            
+            ans2 = ans2.lower()    
         aspect2(ans2)
         if person != "" and number != "" and tense != "" and voice != "" and mood != "" and conjugation != "":
             break
@@ -169,7 +167,8 @@ def noun(word):
     lines = lines[1:]
     lines = [line.split(',') for line in lines]
     quest(input("Do you know the gender, declension, number, or case of your noun? Y/YES/N/NO "))
-    print("In the following analyses,  first the dictionary form of the noun will be found \n(that is, its nominative form, with the exception of the third declension where instead the genitive is given) and then in order its gender, number, case, and declension group.")
+    print("In the following analyses,  first the dictionary form of the noun will be found")
+    print("(that is, its nominative form, with the exception of the third declension that aren't already nominative, where I've instead provided the genitive) and then in order its gender, number, case, and declension group.")
     for line in lines:
         ending = line[4]
         endline = int(len(ending))
@@ -177,7 +176,7 @@ def noun(word):
         newend = noms[line[0] + decs[line[3]]]
         if gender != "" and line[0] != gender:
             pass
-        elif number != "" and line[1] != gender:
+        elif number != "" and line[1] != number:
             pass
         elif case != "" and line[2] != case:
             pass
@@ -185,11 +184,15 @@ def noun(word):
             pass
         elif word[-1] == ending or word[-2:] == ending or word[-3:] == ending or word[-4:] == ending:
             line[3] = line[3] + ' declension'
-            print("Dictionary form of the word: ", word[:stem] + newend)
+            if word[-1] in thirdly:
+                newword = word
+            else:
+                newword = word[:stem] + newend
+            print("Dictionary form of the word: ", newword)
             print(", ".join(line[:4]))
         else:
             noun += 1
-    if noun == 110:
+    if noun == 123:
         print("The given word does not match any standard noun form. It may either be: \n 1. An irregular or indeclinable noun \n 2. Another part of speech (verb, preposition, etc) \n 3. A non-Latin word")
             
           
@@ -200,9 +203,43 @@ def verb(word):
     global mood
     global conjugation
     global number
-    
-    
-    
+    nummy = 0
+    datum = open("finalgraphverb.csv", 'r')
+    linez = [line.strip() for line in datum.readlines()]
+    linez = linez[1:]
+    linez = [line.split(',') for line in linez]
+    quest2(input("Do you know the person, number, tense, voice, mood, or conjugation of your verb? Y/YES/N/NO "))
+    print("In the following analyses,  first the dictionary form of the verb will be found, \n then in order its person, number, tense, voice and conjugation group.")
+    for line in linez:
+        ending = line[6]
+        endline = int(len(ending))
+        stem = int(len(word)) - endline
+        newend = conjs[line[5]]
+        if person != "" and line[0] != person:
+            pass
+        elif number != "" and line[1] != number:
+            pass
+        elif tense != "" and line[2] != tense:
+            pass
+        elif voice != "" and line[3] != voice:
+            pass
+        elif mood != "" and line[4] != mood:
+            pass
+        elif conjugation != "" and line [5] != conjugation:
+            pass
+        elif word[-1] == ending or word[-2:] == ending or word[-3:] == ending or word[-4:] == ending or word[-5:] == ending or word[-6:] == ending or word[-7:] == ending or word[-8:] == ending or word[-9:] == ending:
+            if line[5] == 'third/fourth':
+                line[5] = 'third "-io"'
+            line[5] = line[5] + ' conjugation'
+            line[0] = line[0] + ' person'
+            print("Dictionary form of the word: ", word[:stem] + newend)
+            print(", ".join(line[:6]))
+        else:
+            nummy += 1
+    if nummy == 610:
+        print("The given word does not match any standard verb form. It may either be: \n 1. An infinitive or participle \n 2. An irregular verb \n 3. Another part of speech (noun, preposition, etc) \n 4. A non-Latin word")
+
+            
 well = input("Do you want to parse a noun or a verb? Enter one of the following: verb/v/noun/n ")
 well = well.lower()
 while well not in choice:
@@ -211,6 +248,7 @@ if well == 'noun' or well == 'n':
     noun(input("Enter your noun: "))
 elif well == 'verb' or well == 'v':
     verb(input("Enter your verb: "))
+    
 
 
 
