@@ -10,6 +10,7 @@ feminine,plural,accusative,first,ās
 feminine,plural,dative,first,īs
 feminine,plural,ablative,first,īs
 masculine,singular,nominative,second,us
+masculine,singular,nominative,second,r
 masculine,singular,genitive,second,ī
 masculine,singular,accusative,second,um
 masculine,singular,dative,second,ō
@@ -29,7 +30,6 @@ neuter,plural,genitive,second,ōrum
 neuter,plural,accusative,second,a
 neuter,plural,dative,second,īs
 neuter,plural,ablative,second,īs
-feminine,singular,nominative,third,
 feminine,singular,genitive,third,is
 feminine,singular,accusative,third,em
 feminine,singular,dative,third,ī
@@ -39,7 +39,6 @@ feminine,plural,genitive,third,ium
 feminine,plural,accusative,third,ēs
 feminine,plural,dative,third,ibus
 feminine,plural,ablative,third,ibus
-masculine,singular,nominative,third,
 masculine,singular,genitive,third,is
 masculine,singular,accusative,third,em
 masculine,singular,dative,third,ī
@@ -109,3 +108,17 @@ masculine,plural,genitive,fifth,ērum
 masculine,plural,accusative,fifth,ēs
 masculine,plural,dative,fifth,ēbus
  masculine,plural,ablative,fifth,ēbus
+masculine,singular,nominative,third,x
+feminine,singular,nominative,third,x
+neuter,singular,nominative,third,n
+neuter,singular,accusative,third,n
+masculine,singular,nominative,third,n
+feminine,singular,nominative,third,n
+neuter,singular,nominative,third,l
+neuter,singular,accusative,third,l
+masculine,singular,nominative,third,l
+feminine,singular,nominative,third,l
+masculine,singular,nominative,third,r
+feminine,singular,nominative,third,r
+neuter,singular,nominative,third,r
+neuter,singular,accusative,third,r

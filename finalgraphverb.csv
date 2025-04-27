@@ -1,0 +1,611 @@
+person,number,tense,voice,mood,conjugation,ending 
+first,singular,present,active,indicative,first,ō
+second,singular,present,active,indicative,first,ās
+third,singular,present,active,indicative,first,at
+first,plural,present,active,indicative,first,āmus
+second,plural,present,active,indicative,first,ātis
+third,plural,present,active,indicative,first,ant
+first,singular,present,active,indicative,second,eō
+second,singular,present,active,indicative,second,ēs
+third,singular,present,active,indicative,second,et
+first,plural,present,active,indicative,second,ēmus
+second,plural,present,active,indicative,second,ētis
+third,plural,present,active,indicative,second,ent
+first,singular,present,active,indicative,third,ō
+second,singular,present,active,indicative,third,is
+third,singular,present,active,indicative,third,it
+first,plural,present,active,indicative,third,imus
+second,plural,present,active,indicative,third,itis
+third,plural,present,active,indicative,third,unt
+first,singular,present,active,indicative,fourth,iō
+second,singular,present,active,indicative,fourth,īs
+third,singular,present,active,indicative,fourth,it
+first,plural,present,active,indicative,fourth,īmus
+second,plural,present,active,indicative,fourth,ītis
+third,plural,present,active,indicative,fourth,iunt
+first,singular,present,active,indicative,third/fourth,iō
+second,singular,present,active,indicative,third/fourth,is
+third,singular,present,active,indicative,third/fourth,it
+first,plural,present,active,indicative,third/fourth,imus
+second,plural,present,active,indicative,third/fourth,itis
+third,plural,present,active,indicative,third/fourth,iunt
+first,singular,future,active,indicative,first,ābō
+second,singular,future,active,indicative,first,ābis
+third,singular,future,active,indicative,first,ābit
+first,plural,future,active,indicative,first,ābimus
+second,plural,future,active,indicative,first,ābitis
+third,plural,future,active,indicative,first,ābunt
+first,singular,future,active,indicative,second,ēbō
+second,singular,future,active,indicative,second,ēbis
+third,singular,future,active,indicative,second,ēbit
+first,plural,future,active,indicative,second,ēbimus
+second,plural,future,active,indicative,second,ēbitis
+third,plural,future,active,indicative,second,ēbunt
+first,singular,future,active,indicative,third,am
+second,singular,future,active,indicative,third,ēs
+third,singular,future,active,indicative,third,et
+first,plural,future,active,indicative,third,ēmus
+second,plural,future,active,indicative,third,ētis
+third,plural,future,active,indicative,third,ent
+first,singular,future,active,indicative,fourth,iam
+second,singular,future,active,indicative,fourth,iēs
+third,singular,future,active,indicative,fourth,iet
+first,plural,future,active,indicative,fourth,iēmus
+second,plural,future,active,indicative,fourth,iētis
+third,plural,future,active,indicative,fourth,ient
+first,singular,future,active,indicative,third/fourth,iam
+second,singular,future,active,indicative,third/fourth,iēs
+third,singular,future,active,indicative,third/fourth,iet
+first,plural,future,active,indicative,third/fourth,iēmus
+second,plural,future,active,indicative,third/fourth,iētis
+third,plural,future,active,indicative,third/fourth,ient
+first,singular,imperfect,active,indicative,first,ābam
+second,singular,imperfect,active,indicative,first,ābās
+third,singular,imperfect,active,indicative,first,ābat
+first,plural,imperfect,active,indicative,first,ābāmus
+second,plural,imperfect,active,indicative,first,ābātis
+third,plural,imperfect,active,indicative,first,ābant
+first,singular,imperfect,active,indicative,second,ēbam
+second,singular,imperfect,active,indicative,second,ēbās
+third,singular,imperfect,active,indicative,second,ēbat
+first,plural,imperfect,active,indicative,second,ēbāmus
+second,plural,imperfect,active,indicative,second,ēbātis
+third,plural,imperfect,active,indicative,second,ēbant
+first,singular,imperfect,active,indicative,third,ēbam
+second,singular,imperfect,active,indicative,third,ēbās
+third,singular,imperfect,active,indicative,third,ēbat
+first,plural,imperfect,active,indicative,third,ēbāmus
+second,plural,imperfect,active,indicative,third,ēbātis
+third,plural,imperfect,active,indicative,third,ēbant
+first,singular,imperfect,active,indicative,fourth,iēbam
+second,singular,imperfect,active,indicative,fourth,iēbās
+third,singular,imperfect,active,indicative,fourth,iēbat
+first,plural,imperfect,active,indicative,fourth,iēbāmus
+second,plural,imperfect,active,indicative,fourth,iēbātis
+third,plural,imperfect,active,indicative,fourth,iēbant
+first,singular,imperfect,active,indicative,third/fourth,iēbam
+second,singular,imperfect,active,indicative,third/fourth,iēbās
+third,singular,imperfect,active,indicative,third/fourth,iēbat
+first,plural,imperfect,active,indicative,third/fourth,iēbāmus
+second,plural,imperfect,active,indicative,third/fourth,iēbātis
+third,plural,imperfect,active,indicative,third/fourth,iēbant
+first,singular,perfect,active,indicative,first,āvī
+second,singular,perfect,active,indicative,first,āvistī
+third,singular,perfect,active,indicative,first,āvit
+first,plural,perfect,active,indicative,first,āvīmus
+second,plural,perfect,active,indicative,first,āvistis
+third,plural,perfect,active,indicative,first,āvērunt
+first,singular,perfect,active,indicative,second,uī
+second,singular,perfect,active,indicative,second,uistī
+third,singular,perfect,active,indicative,second,uit
+first,plural,perfect,active,indicative,second,uīmus
+second,plural,perfect,active,indicative,second,uistis
+third,plural,perfect,active,indicative,second,uērunt
+first,singular,perfect,active,indicative,third,ī
+second,singular,perfect,active,indicative,third,istī
+third,singular,perfect,active,indicative,third,it
+first,plural,perfect,active,indicative,third,īmus
+second,plural,perfect,active,indicative,third,istis
+third,plural,perfect,active,indicative,third,ērunt
+first,singular,perfect,active,indicative,fourth,īvī
+second,singular,perfect,active,indicative,fourth,īvistī
+third,singular,perfect,active,indicative,fourth,īvit
+first,plural,perfect,active,indicative,fourth,īvīmus
+second,plural,perfect,active,indicative,fourth,īvistis
+third,plural,perfect,active,indicative,fourth,īvērunt
+first,singular,perfect,active,indicative,third/fourth,ī
+second,singular,perfect,active,indicative,third/fourth,istī
+third,singular,perfect,active,indicative,third/fourth,it
+first,plural,perfect,active,indicative,third/fourth,īmus
+second,plural,perfect,active,indicative,third/fourth,istis
+third,plural,perfect,active,indicative,third/fourth,ērunt
+first,singular,pluperfect,active,indicative,first,āveram 
+second,singular,pluperfect,active,indicative,first,āverās
+third,singular,pluperfect,active,indicative,first,āverat
+first,plural,pluperfect,active,indicative,first,āverāmus
+second,plural,pluperfect,active,indicative,first,āverātis
+third,plural,pluperfect,active,indicative,first,āverant
+first,singular,pluperfect,active,indicative,second,ueram 
+second,singular,pluperfect,active,indicative,second,uerās
+third,singular,pluperfect,active,indicative,second,uerat
+first,plural,pluperfect,active,indicative,second,uerāmus
+second,plural,pluperfect,active,indicative,second,uerātis
+third,plural,pluperfect,active,indicative,second,uerant
+first,singular,pluperfect,active,indicative,third,eram 
+second,singular,pluperfect,active,indicative,third,erās
+third,singular,pluperfect,active,indicative,third,erat
+first,plural,pluperfect,active,indicative,third,erāmus
+second,plural,pluperfect,active,indicative,third,erātis
+third,plural,pluperfect,active,indicative,third,erant
+first,singular,pluperfect,active,indicative,fourth,īveram 
+second,singular,pluperfect,active,indicative,fourth,īverās
+third,singular,pluperfect,active,indicative,fourth,īverat
+first,plural,pluperfect,active,indicative,fourth,īverāmus
+second,plural,pluperfect,active,indicative,fourth,īverātis
+third,plural,pluperfect,active,indicative,fourth,īverant
+first,singular,pluperfect,active,indicative,third/fourth,eram 
+second,singular,pluperfect,active,indicative,third/fourth,erās
+third,singular,pluperfect,active,indicative,third/fourth,erat
+first,plural,pluperfect,active,indicative,third/fourth,erāmus
+second,plural,pluperfect,active,indicative,third/fourth,erātis
+third,plural,pluperfect,active,indicative,third/fourth,erant
+first,singular,future perfect,active,indicative,first,āverō
+second,singular,future perfect,active,indicative,first,āveris
+third,singular,future perfect,active,indicative,first,āverit
+first,plural,future perfect,active,indicative,first,āverimus
+second,plural,future perfect,active,indicative,first,āveritis
+third,plural,future perfect,active,indicative,first,āverint
+first,singular,future perfect,active,indicative,second,uerō
+second,singular,future perfect,active,indicative,second,ueris
+third,singular,future perfect,active,indicative,second,uerit
+first,plural,future perfect,active,indicative,second,uerimus
+second,plural,future perfect,active,indicative,second,ueritis
+third,plural,future perfect,active,indicative,second,uerint
+first,singular,future perfect,active,indicative,third,erō
+second,singular,future perfect,active,indicative,third,eris
+third,singular,future perfect,active,indicative,third,erit
+first,plural,future perfect,active,indicative,third,erimus
+second,plural,future perfect,active,indicative,third,eritis
+third,plural,future perfect,active,indicative,third,erint
+first,singular,future perfect,active,indicative,fourth,īverō
+second,singular,future perfect,active,indicative,fourth,īveris
+third,singular,future perfect,active,indicative,fourth,īverit
+first,plural,future perfect,active,indicative,fourth,īverimus
+second,plural,future perfect,active,indicative,fourth,īveritis
+third,plural,future perfect,active,indicative,fourth,īverint
+first,singular,future perfect,active,indicative,third/fourth,erō
+second,singular,future perfect,active,indicative,third/fourth,eris
+third,singular,future perfect,active,indicative,third/fourth,erit
+first,plural,future perfect,active,indicative,third/fourth,erimus
+second,plural,future perfect,active,indicative,third/fourth,eritis
+third,plural,future perfect,active,indicative,third/fourth,erint
+first,singular,present,passive,indicative,first,or
+second,singular,present,passive,indicative,first,āris
+third,singular,present,passive,indicative,first,ātur
+first,plural,present,passive,indicative,first,āmur
+second,plural,present,passive,indicative,first,āminī
+third,plural,present,passive,indicative,first,antur
+first,singular,present,passive,indicative,second,eor
+second,singular,present,passive,indicative,second,ēris
+third,singular,present,passive,indicative,second,ētur
+first,plural,present,passive,indicative,second,ēmur
+second,plural,present,passive,indicative,second,ēminī
+third,plural,present,passive,indicative,second,entur
+first,singular,present,passive,indicative,third,or
+second,singular,present,passive,indicative,third,eris
+third,singular,present,passive,indicative,third,itur
+first,plural,present,passive,indicative,third,imur
+second,plural,present,passive,indicative,third,iminī
+third,plural,present,passive,indicative,third,untur
+first,singular,present,passive,indicative,fourth,ior
+second,singular,present,passive,indicative,fourth,īris
+third,singular,present,passive,indicative,fourth,ītur
+first,plural,present,passive,indicative,fourth,īmur
+second,plural,present,passive,indicative,fourth,īminī
+third,plural,present,passive,indicative,fourth,iuntur
+first,singular,present,passive,indicative,third/fourth,ior
+second,singular,present,passive,indicative,third/fourth,eris
+third,singular,present,passive,indicative,third/fourth,itur
+first,plural,present,passive,indicative,third/fourth,imur
+second,plural,present,passive,indicative,third/fourth,iminī
+third,plural,present,passive,indicative,third/fourth,iuntur
+first,singular,future,passive,indicative,first,ābor
+second,singular,future,passive,indicative,first,āberis
+third,singular,future,passive,indicative,first,ābitur
+first,plural,future,passive,indicative,first,ābimur
+second,plural,future,passive,indicative,first,ābiminī
+third,plural,future,passive,indicative,first,ābuntur
+first,singular,future,passive,indicative,second,ēbor
+second,singular,future,passive,indicative,second,ēberis
+third,singular,future,passive,indicative,second,ēbitur
+first,plural,future,passive,indicative,second,ēbimur
+second,plural,future,passive,indicative,second,ēbiminī
+third,plural,future,passive,indicative,second,ēbuntur
+first,singular,future,passive,indicative,third,ar
+second,singular,future,passive,indicative,third,ēris
+third,singular,future,passive,indicative,third,ētur
+first,plural,future,passive,indicative,third,ēmur
+second,plural,future,passive,indicative,third,ēminī
+third,plural,future,passive,indicative,third,entur
+first,singular,future,passive,indicative,fourth,iar
+second,singular,future,passive,indicative,fourth,iēris
+third,singular,future,passive,indicative,fourth,iētur
+first,plural,future,passive,indicative,fourth,iēmur
+second,plural,future,passive,indicative,fourth,iēminī
+third,plural,future,passive,indicative,fourth,ientur
+first,singular,future,passive,indicative,third/fourth,iar
+second,singular,future,passive,indicative,third/fourth,iēris
+third,singular,future,passive,indicative,third/fourth,iētur
+first,plural,future,passive,indicative,third/fourth,iēmur
+second,plural,future,passive,indicative,third/fourth,iēminī
+third,plural,future,passive,indicative,third/fourth,ientur
+first,singular,imperfect,passive,indicative,first,ābar
+second,singular,imperfect,passive,indicative,first,ābāris
+third,singular,imperfect,passive,indicative,first,ābātur
+first,plural,imperfect,passive,indicative,first,ābāmur
+second,plural,imperfect,passive,indicative,first,ābāminī
+third,plural,imperfect,passive,indicative,first,ābantur
+first,singular,imperfect,passive,indicative,second,ēbar
+second,singular,imperfect,passive,indicative,second,ēbāris
+third,singular,imperfect,passive,indicative,second,ēbātur
+first,plural,imperfect,passive,indicative,second,ēbāmur
+second,plural,imperfect,passive,indicative,second,ēbāminī
+third,plural,imperfect,passive,indicative,second,ēbantur
+first,singular,imperfect,passive,indicative,third,ēbar
+second,singular,imperfect,passive,indicative,third,ēbāris
+third,singular,imperfect,passive,indicative,third,ēbātur
+first,plural,imperfect,passive,indicative,third,ēbāmur
+second,plural,imperfect,passive,indicative,third,ēbāminī
+third,plural,imperfect,passive,indicative,third,ēbantur
+first,singular,imperfect,passive,indicative,fourth,iēbar
+second,singular,imperfect,passive,indicative,fourth,iēbāris
+third,singular,imperfect,passive,indicative,fourth,iēbātur
+first,plural,imperfect,passive,indicative,fourth,iēbāmur
+second,plural,imperfect,passive,indicative,fourth,iēbāminī
+third,plural,imperfect,passive,indicative,fourth,iēbantur
+first,singular,imperfect,passive,indicative,third/fourth,iēbar
+second,singular,imperfect,passive,indicative,third/fourth,iēbāris
+third,singular,imperfect,passive,indicative,third/fourth,iēbātur
+first,plural,imperfect,passive,indicative,third/fourth,iēbāmur
+second,plural,imperfect,passive,indicative,third/fourth,iēbāminī
+third,plural,imperfect,passive,indicative,third/fourth,iēbantur
+first,singular,perfect,passive,indicative,first, sum
+second,singular,perfect,passive,indicative,first, es
+third,singular,perfect,passive,indicative,first, est
+first,plural,perfect,passive,indicative,first, sumus
+second,plural,perfect,passive,indicative,first, estis
+third,plural,perfect,passive,indicative,first, sunt
+first,singular,perfect,passive,indicative,second, sum
+second,singular,perfect,passive,indicative,second, es
+third,singular,perfect,passive,indicative,second, est
+first,plural,perfect,passive,indicative,second, sumus
+second,plural,perfect,passive,indicative,second, estis
+third,plural,perfect,passive,indicative,second, sunt
+first,singular,perfect,passive,indicative,third, sum
+second,singular,perfect,passive,indicative,third, es
+third,singular,perfect,passive,indicative,third, est
+first,plural,perfect,passive,indicative,third, sumus
+second,plural,perfect,passive,indicative,third, estis
+third,plural,perfect,passive,indicative,third, sunt
+first,singular,perfect,passive,indicative,fourth, sum
+second,singular,perfect,passive,indicative,fourth, es
+third,singular,perfect,passive,indicative,fourth, est
+first,plural,perfect,passive,indicative,fourth, sumus
+second,plural,perfect,passive,indicative,fourth, estis
+third,plural,perfect,passive,indicative,fourth, sunt
+first,singular,perfect,passive,indicative,third/fourth, sum
+second,singular,perfect,passive,indicative,third/fourth, es
+third,singular,perfect,passive,indicative,third/fourth, est
+first,plural,perfect,passive,indicative,third/fourth, sumus
+second,plural,perfect,passive,indicative,third/fourth, estis
+third,plural,perfect,passive,indicative,third/fourth, sunt
+first,singular,pluperfect,passive,indicative,first, eram 
+second,singular,pluperfect,passive,indicative,first, erās
+third,singular,pluperfect,passive,indicative,first, erat
+first,plural,pluperfect,passive,indicative,first, erāmus
+second,plural,pluperfect,passive,indicative,first, erātis
+third,plural,pluperfect,passive,indicative,first, erant
+first,singular,pluperfect,passive,indicative,second, eram 
+second,singular,pluperfect,passive,indicative,second, erās
+third,singular,pluperfect,passive,indicative,second, erat
+first,plural,pluperfect,passive,indicative,second, erāmus
+second,plural,pluperfect,passive,indicative,second, erātis
+third,plural,pluperfect,passive,indicative,second, erant
+first,singular,pluperfect,passive,indicative,third, eram 
+second,singular,pluperfect,passive,indicative,third, erās
+third,singular,pluperfect,passive,indicative,third, erat
+first,plural,pluperfect,passive,indicative,third, erāmus
+second,plural,pluperfect,passive,indicative,third, erātis
+third,plural,pluperfect,passive,indicative,third, erant
+first,singular,pluperfect,passive,indicative,fourth, eram 
+second,singular,pluperfect,passive,indicative,fourth, erās
+third,singular,pluperfect,passive,indicative,fourth, erat
+first,plural,pluperfect,passive,indicative,fourth, erāmus
+second,plural,pluperfect,passive,indicative,fourth, erātis
+third,plural,pluperfect,passive,indicative,fourth, erant
+first,singular,pluperfect,passive,indicative,third/fourth, eram 
+second,singular,pluperfect,passive,indicative,third/fourth, erās
+third,singular,pluperfect,passive,indicative,third/fourth, erat
+first,plural,pluperfect,passive,indicative,third/fourth, erāmus
+second,plural,pluperfect,passive,indicative,third/fourth, erātis
+third,plural,pluperfect,passive,indicative,third/fourth, erant
+first,singular,future perfect,passive,indicative,first, erō
+second,singular,future perfect,passive,indicative,first, eris
+third,singular,future perfect,passive,indicative,first, erit
+first,plural,future perfect,passive,indicative,first, erimus
+second,plural,future perfect,passive,indicative,first, eritis
+third,plural,future perfect,passive,indicative,first, erint
+first,singular,future perfect,passive,indicative,second, erō
+second,singular,future perfect,passive,indicative,second, eris
+third,singular,future perfect,passive,indicative,second, erit
+first,plural,future perfect,passive,indicative,second, erimus
+second,plural,future perfect,passive,indicative,second, eritis
+third,plural,future perfect,passive,indicative,second, erint
+first,singular,future perfect,passive,indicative,third, erō
+second,singular,future perfect,passive,indicative,third, eris
+third,singular,future perfect,passive,indicative,third, erit
+first,plural,future perfect,passive,indicative,third, erimus
+second,plural,future perfect,passive,indicative,third, eritis
+third,plural,future perfect,passive,indicative,third, erint
+first,singular,future perfect,passive,indicative,fourth, erō
+second,singular,future perfect,passive,indicative,fourth, eris
+third,singular,future perfect,passive,indicative,fourth, erit
+first,plural,future perfect,passive,indicative,fourth, erimus
+second,plural,future perfect,passive,indicative,fourth, eritis
+third,plural,future perfect,passive,indicative,fourth, erint
+first,singular,future perfect,passive,indicative,third/fourth, erō
+second,singular,future perfect,passive,indicative,third/fourth, eris
+third,singular,future perfect,passive,indicative,third/fourth, erit
+first,plural,future perfect,passive,indicative,third/fourth, erimus
+second,plural,future perfect,passive,indicative,third/fourth, eritis
+third,plural,future perfect,passive,indicative,third/fourth, erint
+first,singular,present,active,subjunctive,first,em
+second,singular,present,active,subjunctive,first,ēs
+third,singular,present,active,subjunctive,first,et
+first,plural,present,active,subjunctive,first,ēmus
+second,plural,present,active,subjunctive,first,ētis
+third,plural,present,active,subjunctive,first,ent
+first,singular,present,active,subjunctive,second,eam
+second,singular,present,active,subjunctive,second,eās
+third,singular,present,active,subjunctive,second,eat
+first,plural,present,active,subjunctive,second,eāmus
+second,plural,present,active,subjunctive,second,eātis
+third,plural,present,active,subjunctive,second,eānt
+first,singular,present,active,subjunctive,third,m
+second,singular,present,active,subjunctive,third,ās
+third,singular,present,active,subjunctive,third,at
+first,plural,present,active,subjunctive,third,āmus
+second,plural,present,active,subjunctive,third,ātis
+third,plural,present,active,subjunctive,third,ant
+first,singular,present,active,subjunctive,fourth,iam
+second,singular,present,active,subjunctive,fourth,iās
+third,singular,present,active,subjunctive,fourth,iat
+first,plural,present,active,subjunctive,fourth,īāmus
+second,plural,present,active,subjunctive,fourth,īātis
+third,plural,present,active,subjunctive,fourth,iant
+first,singular,present,active,subjunctive,third/fourth,iam
+second,singular,present,active,subjunctive,third/fourth,iās
+third,singular,present,active,subjunctive,third/fourth,iat
+first,plural,present,active,subjunctive,third/fourth,iāmus
+second,plural,present,active,subjunctive,third/fourth,iātis
+third,plural,present,active,subjunctive,third/fourth,iant
+first,singular,pluperfect,active,subjunctive,first,āvissem
+second,singular,pluperfect,active,subjunctive,first,āvissēs
+third,singular,pluperfect,active,subjunctive,first,āvisset
+first,plural,pluperfect,active,subjunctive,first,āvissēmus
+second,plural,pluperfect,active,subjunctive,first,āvissētis
+third,plural,pluperfect,active,subjunctive,first,āvissent
+first,singular,pluperfect,active,subjunctive,second,uissem
+second,singular,pluperfect,active,subjunctive,second,uissēs
+third,singular,pluperfect,active,subjunctive,second,uisset
+first,plural,pluperfect,active,subjunctive,second,uissēmus
+second,plural,pluperfect,active,subjunctive,second,uissētis
+third,plural,pluperfect,active,subjunctive,second,uissent
+first,singular,pluperfect,active,subjunctive,third,issem
+second,singular,pluperfect,active,subjunctive,third,issēs
+third,singular,pluperfect,active,subjunctive,third,isset
+first,plural,pluperfect,active,subjunctive,third,issēmus
+second,plural,pluperfect,active,subjunctive,third,issētis
+third,plural,pluperfect,active,subjunctive,third,issent
+first,singular,pluperfect,active,subjunctive,fourth,īvissem
+second,singular,pluperfect,active,subjunctive,fourth,īvissēs
+third,singular,pluperfect,active,subjunctive,fourth,īvisset
+first,plural,pluperfect,active,subjunctive,fourth,īvissēmus
+second,plural,pluperfect,active,subjunctive,fourth,īvissētis
+third,plural,pluperfect,active,subjunctive,fourth,īvissent
+first,singular,pluperfect,active,subjunctive,third/fourth,issem
+second,singular,pluperfect,active,subjunctive,third/fourth,issēs
+third,singular,pluperfect,active,subjunctive,third/fourth,isset
+first,plural,pluperfect,active,subjunctive,third/fourth,issēmus
+second,plural,pluperfect,active,subjunctive,third/fourth,issētis
+third,plural,pluperfect,active,subjunctive,third/fourth,issent
+first,singular,imperfect,active,subjunctive,first,ārem
+second,singular,imperfect,active,subjunctive,first,ārēs
+third,singular,imperfect,active,subjunctive,first,āret
+first,plural,imperfect,active,subjunctive,first,ārēmus
+second,plural,imperfect,active,subjunctive,first,ārētis
+third,plural,imperfect,active,subjunctive,first,ārent
+first,singular,imperfect,active,subjunctive,second,ērem
+second,singular,imperfect,active,subjunctive,second,ērēs
+third,singular,imperfect,active,subjunctive,second,ēret
+first,plural,imperfect,active,subjunctive,second,ērēmus
+second,plural,imperfect,active,subjunctive,second,ērētis
+third,plural,imperfect,active,subjunctive,second,ērent
+first,singular,imperfect,active,subjunctive,third,erem
+second,singular,imperfect,active,subjunctive,third,erēs
+third,singular,imperfect,active,subjunctive,third,eret
+first,plural,imperfect,active,subjunctive,third,erēmus
+second,plural,imperfect,active,subjunctive,third,erētis
+third,plural,imperfect,active,subjunctive,third,erent
+first,singular,imperfect,active,subjunctive,fourth,īrem
+second,singular,imperfect,active,subjunctive,fourth,īrēs
+third,singular,imperfect,active,subjunctive,fourth,īret
+first,plural,imperfect,active,subjunctive,fourth,īrēmus
+second,plural,imperfect,active,subjunctive,fourth,īrētis
+third,plural,imperfect,active,subjunctive,fourth,īrent
+first,singular,imperfect,active,subjunctive,third/fourth,erem
+second,singular,imperfect,active,subjunctive,third/fourth,erēs
+third,singular,imperfect,active,subjunctive,third/fourth,eret
+first,plural,imperfect,active,subjunctive,third/fourth,erēmus
+second,plural,imperfect,active,subjunctive,third/fourth,erētis
+third,plural,imperfect,active,subjunctive,third/fourth,erent
+first,singular,perfect,active,subjunctive,first,āverim
+second,singular,perfect,active,subjunctive,first,āverīs
+third,singular,perfect,active,subjunctive,first,āverit
+first,plural,perfect,active,subjunctive,first,āverīmus
+second,plural,perfect,active,subjunctive,first,āverītis
+third,plural,perfect,active,subjunctive,first,āverint
+first,singular,perfect,active,subjunctive,second,uerim
+second,singular,perfect,active,subjunctive,second,uerīs
+third,singular,perfect,active,subjunctive,second,uerit
+first,plural,perfect,active,subjunctive,second,uerīmus
+second,plural,perfect,active,subjunctive,second,uerītis
+third,plural,perfect,active,subjunctive,second,uerint
+first,singular,perfect,active,subjunctive,third,erim
+second,singular,perfect,active,subjunctive,third,erīs
+third,singular,perfect,active,subjunctive,third,erit
+first,plural,perfect,active,subjunctive,third,erīmus
+second,plural,perfect,active,subjunctive,third,erītis
+third,plural,perfect,active,subjunctive,third,erint
+first,singular,perfect,active,subjunctive,fourth,īverim
+second,singular,perfect,active,subjunctive,fourth,īverīs
+third,singular,perfect,active,subjunctive,fourth,īverit
+first,plural,perfect,active,subjunctive,fourth,īverīmus
+second,plural,perfect,active,subjunctive,fourth,īverītis
+third,plural,perfect,active,subjunctive,fourth,īverint
+first,singular,perfect,active,subjunctive,third/fourth,erim
+second,singular,perfect,active,subjunctive,third/fourth,erīs
+third,singular,perfect,active,subjunctive,third/fourth,erit
+first,plural,perfect,active,subjunctive,third/fourth,erīmus
+second,plural,perfect,active,subjunctive,third/fourth,erītis
+third,plural,perfect,active,subjunctive,third/fourth,erint
+first,singular,present,passive,subjunctive,first,er
+second,singular,present,passive,subjunctive,first,ēris
+third,singular,present,passive,subjunctive,first,ētur
+first,plural,present,passive,subjunctive,first,ēmur
+second,plural,present,passive,subjunctive,first,ēminī
+third,plural,present,passive,subjunctive,first,entur
+first,singular,present,passive,subjunctive,second,ear
+second,singular,present,passive,subjunctive,second,eāris
+third,singular,present,passive,subjunctive,second,eātur
+first,plural,present,passive,subjunctive,second,eāmur
+second,plural,present,passive,subjunctive,second,eāminī
+third,plural,present,passive,subjunctive,second,eantur
+first,singular,present,passive,subjunctive,third,ar
+second,singular,present,passive,subjunctive,third,āris
+third,singular,present,passive,subjunctive,third,ātur
+first,plural,present,passive,subjunctive,third,āmur
+second,plural,present,passive,subjunctive,third,āminī
+third,plural,present,passive,subjunctive,third,uantur
+first,singular,present,passive,subjunctive,fourth,iar
+second,singular,present,passive,subjunctive,fourth,iāris
+third,singular,present,passive,subjunctive,fourth,iātur
+first,plural,present,passive,subjunctive,fourth,iāmur
+second,plural,present,passive,subjunctive,fourth,iāminī
+third,plural,present,passive,subjunctive,fourth,iantur
+first,singular,present,passive,subjunctive,third/fourth,iar
+second,singular,present,passive,subjunctive,third/fourth,iāris
+third,singular,present,passive,subjunctive,third/fourth,iātur
+first,plural,present,passive,subjunctive,third/fourth,iāmur
+second,plural,present,passive,subjunctive,third/fourth,iāminī
+third,plural,present,passive,subjunctive,third/fourth,iantur
+first,singular,pluperfect,passive,subjunctive,first, essem
+second,singular,pluperfect,passive,subjunctive,first, essēs
+third,singular,pluperfect,passive,subjunctive,first, esset 
+first,plural,pluperfect,passive,subjunctive,first, essēmus
+second,plural,pluperfect,passive,subjunctive,first, essētis
+third,plural,pluperfect,passive,subjunctive,first, essent
+first,singular,pluperfect,passive,subjunctive,second, essem
+second,singular,pluperfect,passive,subjunctive,second, essēs
+third,singular,pluperfect,passive,subjunctive,second, esset 
+first,plural,pluperfect,passive,subjunctive,second, essēmus
+second,plural,pluperfect,passive,subjunctive,second, essētis
+third,plural,pluperfect,passive,subjunctive,second, essent
+first,singular,pluperfect,passive,subjunctive,third, essem
+second,singular,pluperfect,passive,subjunctive,third, essēs
+third,singular,pluperfect,passive,subjunctive,third, esset 
+first,plural,pluperfect,passive,subjunctive,third, essēmus
+second,plural,pluperfect,passive,subjunctive,third, essētis
+third,plural,pluperfect,passive,subjunctive,third, essent
+first,singular,pluperfect,passive,subjunctive,fourth, essem
+second,singular,pluperfect,passive,subjunctive,fourth, essēs
+third,singular,pluperfect,passive,subjunctive,fourth, esset 
+first,plural,pluperfect,passive,subjunctive,fourth, essēmus
+second,plural,pluperfect,passive,subjunctive,fourth, essētis
+third,plural,pluperfect,passive,subjunctive,fourth, essent
+first,singular,pluperfect,passive,subjunctive,third/fourth, essem
+second,singular,pluperfect,passive,subjunctive,third/fourth, essēs
+third,singular,pluperfect,passive,subjunctive,third/fourth, esset 
+first,plural,pluperfect,passive,subjunctive,third/fourth, essēmus
+second,plural,pluperfect,passive,subjunctive,third/fourth, essētis
+third,plural,pluperfect,passive,subjunctive,third/fourth, essent
+first,singular,imperfect,passive,subjunctive,first,ārer
+second,singular,imperfect,passive,subjunctive,first,ārēris
+third,singular,imperfect,passive,subjunctive,first,ārētur
+first,plural,imperfect,passive,subjunctive,first,ārēmur
+second,plural,imperfect,passive,subjunctive,first,ārēminī
+third,plural,imperfect,passive,subjunctive,first,ārentur
+first,singular,imperfect,passive,subjunctive,second,ērer
+second,singular,imperfect,passive,subjunctive,second,ērēris
+third,singular,imperfect,passive,subjunctive,second,ērētur
+first,plural,imperfect,passive,subjunctive,second,ērēmur
+second,plural,imperfect,passive,subjunctive,second,ērēminī
+third,plural,imperfect,passive,subjunctive,second,ērentur
+first,singular,imperfect,passive,subjunctive,third,erer
+second,singular,imperfect,passive,subjunctive,third,erēris
+third,singular,imperfect,passive,subjunctive,third,erētur
+first,plural,imperfect,passive,subjunctive,third,erēmur
+second,plural,imperfect,passive,subjunctive,third,erēminī
+third,plural,imperfect,passive,subjunctive,third,erentur
+first,singular,imperfect,passive,subjunctive,fourth,īrer
+second,singular,imperfect,passive,subjunctive,fourth,īrēris
+third,singular,imperfect,passive,subjunctive,fourth,īrētur
+first,plural,imperfect,passive,subjunctive,fourth,īrēmur
+second,plural,imperfect,passive,subjunctive,fourth,īrēminī
+third,plural,imperfect,passive,subjunctive,fourth,īrentur
+first,singular,imperfect,passive,subjunctive,third/fourth,erer
+second,singular,imperfect,passive,subjunctive,third/fourth,erēris
+third,singular,imperfect,passive,subjunctive,third/fourth,erētur
+first,plural,imperfect,passive,subjunctive,third/fourth,erēmur
+second,plural,imperfect,passive,subjunctive,third/fourth,erēminī
+third,plural,imperfect,passive,subjunctive,third/fourth,erentur
+first,singular,perfect,passive,subjunctive,first, sim
+second,singular,perfect,passive,subjunctive,first, sīs
+third,singular,perfect,passive,subjunctive,first, sit
+first,plural,perfect,passive,subjunctive,first, sīmus 
+second,plural,perfect,passive,subjunctive,first, sītis
+third,plural,perfect,passive,subjunctive,first, sint
+first,singular,perfect,passive,subjunctive,second, sim
+second,singular,perfect,passive,subjunctive,second, sīs
+third,singular,perfect,passive,subjunctive,second, sit
+first,plural,perfect,passive,subjunctive,second, sīmus 
+second,plural,perfect,passive,subjunctive,second, sītis
+third,plural,perfect,passive,subjunctive,second, sint
+first,singular,perfect,passive,subjunctive,third, sim
+second,singular,perfect,passive,subjunctive,third, sīs
+third,singular,perfect,passive,subjunctive,third, sit
+first,plural,perfect,passive,subjunctive,third, sīmus 
+second,plural,perfect,passive,subjunctive,third, sītis
+third,plural,perfect,passive,subjunctive,third, sint
+first,singular,perfect,passive,subjunctive,fourth, sim
+second,singular,perfect,passive,subjunctive,fourth, sīs
+third,singular,perfect,passive,subjunctive,fourth, sit
+first,plural,perfect,passive,subjunctive,fourth, sīmus 
+second,plural,perfect,passive,subjunctive,fourth, sītis
+third,plural,perfect,passive,subjunctive,fourth, sint
+first,singular,perfect,passive,subjunctive,third/fourth, sim
+second,singular,perfect,passive,subjunctive,third/fourth, sīs
+third,singular,perfect,passive,subjunctive,third/fourth, sit
+first,plural,perfect,passive,subjunctive,third/fourth, sīmus 
+second,plural,perfect,passive,subjunctive,third/fourth, sītis
+third,plural,perfect,passive,subjunctive,third/fourth, sint
+second,singular,present,active,imperative ,first,ā
+second,plural,present,active,imperative ,first,āte
+second,singular,present,active,imperative ,second,ē
+second,plural,present,active,imperative ,second,ēte
+second,singular,present,active,imperative ,third,e
+second,plural,present,active,imperative ,third,ete
+second,singular,present,active,imperative ,fourth,ī
+second,plural,present,active,imperative ,fourth,īte
+second,singular,present,active,imperative ,third/fourth,e
+second,plural,present,active,imperative ,third/fourth,ete
